@@ -46,16 +46,18 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+    border-right: none;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-left: none;
     color: #C4C4C4;
 }
 
@@ -67,8 +69,9 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+    border-right: none;
     color: #707070;
 }
 
@@ -76,8 +79,9 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-left: none;
 }
 
 footer {
@@ -91,4 +95,5 @@ footer > p {
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    padding-left: 0px;
 }
